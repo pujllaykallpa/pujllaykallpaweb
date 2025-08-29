@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pujllay Kallpa - Caporales</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">PUJLLAY KALLPA</div>
+    <nav id="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#fotos">Fotos</a>
+      <a href="#videos">Videos</a>
+      <a href="#actividades">Actividades</a>
+    </nav>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Bienvenidos a Pujllay Kallpa</h1>
+      <p>Pasión, fuerza y tradición en cada paso de caporal ✨</p>
+    </div>
+  </section>
+
+  <!-- Sección Fotos -->
+  <section id="fotos" class="section">
+    <h2>📸 Galería de Fotos</h2>
+    <div class="grid">
+      <img src="fotos/foto1.jpg" alt="Foto 1"/>
+      <img src="fotos/foto2.jpg" alt="Foto 2"/>
+      <img src="fotos/foto3.jpg" alt="Foto 3"/>
+      <img src="fotos/foto4.jpg" alt="Foto 4"/>
+    </div>
+  </section>
+
+  <!-- Sección Videos -->
+  <section id="videos" class="section">
+    <h2>🎥 Nuestros Videos</h2>
+    <div class="grid">
+      <video controls>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento video.
+      </video>
+      <video controls>
+        <source src="videos/video2.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento video.
+      </video>
+    </div>
+  </section>
+
+  <!-- Sección Actividades -->
+  <section id="actividades" class="section">
+    <h2>🎭 Actividades</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Ensayos</h3>
+        <p>Todos los miercoles ensayo de Brisas y lunes en Lawn Tennis.</p>
+      </div>
+      <div class="card">
+        <h3>Presentaciones</h3>
+        <p>Participamos en local Brisas del Titicaca.</p>
+      </div>
+      <div class="card">
+        <h3>Próximos Eventos</h3>
+        <p>Proximamente RifaPujllay, donde podrás participar para que te lleves hermosos premios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer>
+    <p>© 2025 Pujllay Kallpa - Melissa no me caes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
